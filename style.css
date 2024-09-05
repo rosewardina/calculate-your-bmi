@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: Verdana;
-	background-color: MistyRose;
-    }
+    background-color: MistyRose;
+}
 
 footer {
     background: linear-gradient(90deg, #0cc0df, #ffde59);
@@ -16,8 +16,8 @@ footer {
 }
 
 .logo img {
-    width: 200px;
-    margin-right: 20px; /* Space between logo and text */
+    width: 150px; /* Smaller logo size */
+    margin-right: 20px;
 }
 
 .footer-content h1 {
@@ -27,18 +27,15 @@ footer {
 }
 
 .footer-content p {
-    margin: 10px 0; /* Space above and below the links */
+    margin: 10px 0;
 }
 
 .footer-content a {
-    margin: 0 15px; /* Space between each link */
+    margin: 0 15px;
     text-decoration: none;
-    color: black; /* Optional: ensures the links are black */
+    color: black;
 }
 
-p {
-    text-align: center;
-}
 a:hover {
     color: #ffde59;
     text-decoration: underline;
@@ -52,63 +49,24 @@ a:hover {
     transform: scale(1.1);
 }
 
-.nav-menu {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: #fff;
-}
-
-.nav-menu li {
-    position: relative;
-    margin: 0 15px;
-}
-
-.nav-menu a {
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    color: #000;
+.hero-section {
     padding: 10px;
+    text-align: center;
 }
 
-.nav-menu li:hover > ul {
-    display: block;
+.hero-section button {
+    margin: 10px 5px; /* Space between buttons */
 }
 
-.nav-menu ul {
-    display: none;
-    position: absolute;
-    top: 30px;
-    left: 0;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: #fff;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+.hero-section .button-container {
+    margin-top: 20px; /* Move the buttons down */
 }
 
-.nav-menu ul li {
-    margin: 0;
+video {
+    margin-top: 20px;
 }
 
-.nav-menu ul a {
-    padding: 10px;
-    color: #000;
-}
-
-.nav-menu ul a:hover {
-    background-color: #ddd;
-}
-
-/* For mobile devices */
-@media only screen and (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-
+@media (max-width: 768px) {
     footer {
         flex-direction: column;
         text-align: center;
@@ -127,14 +85,4 @@ a:hover {
 video, img {
     max-width: 100%;
     height: auto;
-}
-
-body {
-    font-size: 1rem; /* Default size */
-}
-
-@media (max-width: 768px) {
-    body {
-        font-size: 0.9rem; /* Smaller on mobile */
-    }
 }
