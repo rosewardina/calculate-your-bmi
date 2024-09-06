@@ -17,7 +17,7 @@ footer {
 
 .logo img {
     width: 150px;
-    margin-right: 20px; /* Space between logo and text */
+    margin-right: 20px; 
 }
 
 .footer-content h1 {
@@ -27,13 +27,13 @@ footer {
 }
 
 .footer-content p {
-    margin: 10px 0; /* Space above and below the links */
+    margin: 10px 0; 
 }
 
 .footer-content a {
-    margin: 0 15px; /* Space between each link */
+    margin: 0 15px; 
     text-decoration: none;
-    color: black; /* Optional: ensures the links are black */
+    color: black; 
 }
 
 p {
@@ -130,7 +130,7 @@ video, img {
 }
 
 body {
-    font-size: 1rem; /* Default size */
+    font-size: 1rem; 
 }
 
 @media (max-width: 768px) {
